@@ -30,3 +30,7 @@ Walking on the bridge, which took me about 30 minutes, offers a surreal experien
 #### Here's a link to the website for the guide to Brooklyn Bridge
 
 * [Brooklyn Bridge](https://www.nycgo.com/articles/guide-to-the-brooklyn-bridge)
+
+
+### Link to page about me 
+[About me](about.html)
