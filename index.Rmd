@@ -1,0 +1,23 @@
+---
+title: "My Adventures in New York City"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+These are some of my favorite places in New York City, the city that never sleeps! 
+
+
+### The Press Lounge Rooftop Bar
+
+Located on 653 11th Avenue, the rooftop bar offers amazing views of the Manhattan skyline and Hudson River with a 
+360 degree view! 
+
+This is definitely one of my favorite rooftop bars in Manhattan.
+
+
+#### Here's a link to the official website of the Rooftop Bar
+
+* [The Press Lounge](https://www.thepresslounge.com/)
