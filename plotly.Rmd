@@ -30,21 +30,18 @@ ny_noaa_df =
 
 
 Scatterplot that shows the average maximum temperature in June across the years
-```{r}
+```{r, message = FALSE}
 ny_noaa_df %>% 
  filter(month %in% "06") %>%
   group_by(id, year, month) %>%
   summarize(
     mean_tmax = mean(tmax, na.rm = TRUE)) %>%
   plot_ly(x = ~year, y = ~mean_tmax, type = "scatter", mode = "markers" )
-  
-  
-  labs(title = "Average Maximum Temperature in January and July in Each Station Across Years")
 ```
 
 
 Barplot that shows the average precipitation in September across the years
-```{r}
+```{r, message = FALSE}
 ny_noaa_df %>% 
  filter(month %in% "09") %>%
   group_by(id, year, month) %>%
@@ -55,7 +52,7 @@ ny_noaa_df %>%
 
 
 Box plot of distribution of snowfall greater than 0 less than 50 by year
-```{r}
+```{r, message = FALSE}
 snowfall_dist = 
   ny_noaa_df %>% 
   filter(snow < 50) %>%
