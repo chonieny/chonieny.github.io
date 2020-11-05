@@ -1,0 +1,36 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+### My academic and professional experience
+
+
+
+#### Education
+School: Cornell University<br/> Degree: Bachelor of Science<br/> Major: Biological Sciences, Neurobiology and Behavior 
+
+
+School: Concord Academy<br/> Degree: High School
+
+#### Work Experience
+Icahn School of Medicine at Mount Sinai, May 2019 - June 2020<br/>
+Position: Medical Researcher 
+
+
+Cornell Cooperative Extension, May 2017 - July 2018<br/>
+Position: Administrative Program Assistant
+
+
+#### Research Experience
+
+Computational Physiology Laboratory, May 2016 - May 2018<br/>
+Cornell University, Department of Neurobiology and Behavior
+
+
+The Emmnanuel Pothos Laboratory, June 2013 - August 2013<br/>
+Tufts University School of Medicine, Department of Neuroscience
