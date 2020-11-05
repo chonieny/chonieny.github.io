@@ -1,0 +1,70 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("ny_noaa")
+```
+
+
+```{r}
+ny_noaa_df =
+  ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>%
+  mutate(
+    tmax = as.numeric(tmax),
+    tmax = tmax/10,
+    tmin = as.numeric(tmin),
+    tmin = tmin/10,
+    prcp = prcp/10
+  )
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ny_noaa_df %>% 
+ filter(month %in% "06") %>%
+  group_by(id, year, month) %>%
+  summarize(
+    mean_tmax = mean(tmax, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~mean_tmax, type = "scatter", mode = "markers" )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ny_noaa_df %>% 
+ filter(month %in% "09") %>%
+  group_by(id, year, month) %>%
+  summarize(
+    mean_prcp = mean(prcp, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~mean_prcp, type = "bar", color = ~year, colors = "viridis" )
+```
+
+### Chart C
+
+```{r}
+snowfall_dist = 
+  ny_noaa_df %>% 
+  filter(snow < 50) %>%
+  filter(snow > 0)
+
+snowfall_dist %>%
+   plot_ly(y = ~snow, x = ~year, color = ~year, type = "box", colors = "viridis")
+```
+

@@ -1,0 +1,67 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("ny_noaa")
+```
+
+
+```{r}
+ny_noaa_df =
+  ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>%
+  mutate(
+    tmax = as.numeric(tmax),
+    tmax = tmax/10,
+    tmin = as.numeric(tmin),
+    tmin = tmin/10,
+    prcp = prcp/10
+  )
+```
+
+
+Scatterplot that shows the average maximum temperature in June across the years
+```{r}
+ny_noaa_df %>% 
+ filter(month %in% "06") %>%
+  group_by(id, year, month) %>%
+  summarize(
+    mean_tmax = mean(tmax, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~mean_tmax, type = "scatter", mode = "markers" )
+  
+  
+  labs(title = "Average Maximum Temperature in January and July in Each Station Across Years")
+```
+
+
+Barplot that shows the average precipitation in September across the years
+```{r}
+ny_noaa_df %>% 
+ filter(month %in% "09") %>%
+  group_by(id, year, month) %>%
+  summarize(
+    mean_prcp = mean(prcp, na.rm = TRUE)) %>%
+  plot_ly(x = ~year, y = ~mean_prcp, type = "bar", color = ~year, colors = "viridis" )
+```
+
+
+Box plot of distribution of snowfall greater than 0 less than 50 by year
+```{r}
+snowfall_dist = 
+  ny_noaa_df %>% 
+  filter(snow < 50) %>%
+  filter(snow > 0)
+
+snowfall_dist %>%
+   plot_ly(y = ~snow, x = ~year, color = ~year, type = "box", colors = "viridis")
+```
+
