@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Plots of Climate Data Within New York State"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -32,7 +32,7 @@ ny_noaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Average maximum temperature in June across the years
+### Average maximum temperature(C) in June across the years
 
 ```{r}
 ny_noaa_df %>% 
@@ -46,7 +46,7 @@ ny_noaa_df %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Average precipitation in September across the years
+### Average precipitation(mm) in September across the years
 
 ```{r}
 ny_noaa_df %>% 
@@ -57,7 +57,7 @@ ny_noaa_df %>%
   plot_ly(x = ~year, y = ~mean_prcp, type = "bar", color = ~year, colors = "viridis" )
 ```
 
-### Distribution of snowfall greater than 0 less than 50 by year
+### Distribution of snowfall(mm) greater than 0 less than 50 by year
 
 ```{r}
 snowfall_dist = 
