@@ -1,5 +1,5 @@
 ---
-title: "Plots of Climate Data Within New York State"
+title: "Plots of Climate Data within New York State"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
