@@ -34,6 +34,5 @@ Walking on the bridge, which took me about 30 minutes, offers a surreal experien
 
 
 
-
 ### Link to page about me 
 [About me](about.html)
