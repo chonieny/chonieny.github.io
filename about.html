@@ -13,6 +13,7 @@
 
 <title>About Me</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -27,6 +28,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,6 +82,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -363,13 +374,13 @@ div.tocify {
 </li>
 <li>
   <a href="mailto:&lt;cnych45@gmail.com&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/chonieny/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -389,21 +400,19 @@ div.tocify {
 
 <div id="my-academic-and-professional-experience" class="section level3">
 <h3>My academic and professional experience</h3>
-<p>Na Yun Cho<br/> <a href="mailto:cnych45@gmail.com" class="email">cnych45@gmail.com</a></p>
+<p>Christina Cho<br/> <a href="mailto:cnych45@gmail.com" class="email">cnych45@gmail.com</a></p>
 <div id="education" class="section level4">
 <h4>Education</h4>
+<p>School: Columbia University<br/> Degree: Master of Science in Biostatistics, Data Science</p>
 <p>School: Cornell University<br/> Degree: Bachelor of Science<br/> Major: Biological Sciences, Neurobiology and Behavior</p>
 <p>School: Concord Academy<br/> Degree: High School</p>
 </div>
-<div id="work-experience" class="section level4">
-<h4>Work Experience</h4>
-<p>Icahn School of Medicine at Mount Sinai, May 2019 - June 2020<br/> Position: Medical Researcher</p>
-<p>Cornell Cooperative Extension, May 2017 - July 2018<br/> Position: Administrative Program Assistant</p>
-</div>
-<div id="research-experience" class="section level4">
-<h4>Research Experience</h4>
-<p>Computational Physiology Laboratory, May 2016 - May 2018<br/> Cornell University, Department of Neurobiology and Behavior</p>
-<p>The Emmnanuel Pothos Laboratory, June 2013 - August 2013<br/> Tufts University School of Medicine, Department of Neuroscience</p>
+<div id="professional-experience" class="section level4">
+<h4>Professional Experience</h4>
+<p>The Morishita Laboratory, May 2019 - June 2020<br/> Icahn School of Medicine at Mount Sinai, Department of Neuroscience and Psychiatry<br/> Position: Research Assistant<br/> Publications:<br/> • Norman, K., et al. “Post-error Recruitment of Frontal-Sensory Cortical Projections Promotes Attention”, Neuron, 2021. 10.1016/j.neuron.2021.02.001<br/> • Falk, E., et al. “Nicotinic Regulation of Local and Long-range Input Balance Drives Top-Down Attentional Circuit Maturation”, Science and Advances, 2021.eabe1527<br/></p>
+<p>Computational Physiology Laboratory, May 2016 - May 2018<br/> Cornell University, Department of Neurobiology and Behavior<br/> Position: Honors Thesis Research Assistant<br/> Publications:<br/> • Cho, C. and Linster, C. “Experience Enhances Certainty About Olfactory Stimuli Under Bulbar Cholinergic Control”, Learning and Memory, 2020. 27:414-417 • Linster, C., et al. “Noradrenergic Activity in the Olfactory Bulb is a Key Element for the Stability of Olfactory Memory”, The Journal of Neuroscience, 2020. 40(48) 9260-9271<br/></p>
+<p>Cornell Cooperative Extension, May 2017 - July 2018<br/> Position: Administrative Program Assistant<br/></p>
+<p>The Emmnanuel Pothos Laboratory, June 2013 - August 2013<br/> Tufts University School of Medicine, Department of Neuroscience<br/> Position: Research Assistant</p>
 </div>
 </div>
 
@@ -418,7 +427,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

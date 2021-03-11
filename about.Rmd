@@ -9,30 +9,38 @@ output:
 
 ### My academic and professional experience
 
-Na Yun Cho<br/>
+Christina Cho<br/>
 cnych45@gmail.com
 
 
 #### Education
-School: Cornell University<br/> Degree: Bachelor of Science<br/> Major: Biological Sciences, Neurobiology and Behavior 
+School: Columbia University<br/> Degree: Master of Science in Biostatistics, Data Science
 
+School: Cornell University<br/> Degree: Bachelor of Science<br/> Major: Biological Sciences, Neurobiology and Behavior 
 
 School: Concord Academy<br/> Degree: High School
 
-#### Work Experience
-Icahn School of Medicine at Mount Sinai, May 2019 - June 2020<br/>
-Position: Medical Researcher 
+#### Professional Experience
+The Morishita Laboratory, May 2019 - June 2020<br/> 
+Icahn School of Medicine at Mount Sinai, Department of Neuroscience and Psychiatry<br/>
+Position: Research Assistant<br/>
+Publications:<br/>
+•	Norman, K., et al. “Post-error Recruitment of Frontal-Sensory Cortical Projections Promotes Attention”, Neuron, 2021. 10.1016/j.neuron.2021.02.001<br/>
+•	Falk, E., et al. “Nicotinic Regulation of Local and Long-range Input Balance Drives Top-Down Attentional Circuit Maturation”, Science and Advances, 2021.eabe1527<br/>
+
+
+Computational Physiology Laboratory, May 2016 - May 2018<br/>
+Cornell University, Department of Neurobiology and Behavior<br/>
+Position: Honors Thesis Research Assistant<br/> 
+Publications:<br/>
+•	Cho, C. and Linster, C. “Experience Enhances Certainty About Olfactory Stimuli Under Bulbar Cholinergic Control”, Learning and Memory, 2020. 27:414-417
+•	Linster, C., et al. “Noradrenergic Activity in the Olfactory Bulb is a Key Element for the Stability of Olfactory Memory”, The Journal of Neuroscience, 2020. 40(48) 9260-9271<br/>
 
 
 Cornell Cooperative Extension, May 2017 - July 2018<br/>
-Position: Administrative Program Assistant
-
-
-#### Research Experience
-
-Computational Physiology Laboratory, May 2016 - May 2018<br/>
-Cornell University, Department of Neurobiology and Behavior
+Position: Administrative Program Assistant<br/>
 
 
 The Emmnanuel Pothos Laboratory, June 2013 - August 2013<br/>
-Tufts University School of Medicine, Department of Neuroscience
+Tufts University School of Medicine, Department of Neuroscience<br/>
+Position: Research Assistant 
