@@ -13,10 +13,22 @@ output:
 
 # Christina Cho
 
-cnych45@gmail.com
-
-315.726.5647
+cnych45@gmail.com 315.726.5647
 </center>
+
+
+### About Me
+
+Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.<br />
+My journey to data science has started from being heavily involved with computational neuroscience research<br />
+in undergraduate and post-graduate, where I was able to really confirm my passion for analyzing data <br /> 
+and turning them into meaningful insights.
+This led me to my current graduate program, where I have not only<br/> learned about data science and statistics in depth, but also have gotten a lot of hands-on experience through projects<br /> and work experience through internships.
+Please check out some of my data science projects!
+
+
+
+
 
 
 
