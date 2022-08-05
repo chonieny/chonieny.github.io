@@ -1,0 +1,24 @@
+---
+title: 
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+<center>
+
+<img src = "images/Picture1.JPG" style = "width: 42%">
+
+# Christina Cho
+
+cnych45@gmail.com
+
+315.726.5647
+</center>
+
+
+
+
+
