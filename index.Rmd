@@ -2,19 +2,14 @@
 title: 
 output: 
   html_document:
-    toc: true
-    toc_float: true
     theme: cerulean
 ---
-
 <center>
-
 <img src = "images/Picture1.JPG" style = "width: 42%">
 
 # Christina Cho
 
 cnych45@gmail.com 315.726.5647
-</center>
 
 <br />
 
@@ -24,8 +19,8 @@ Hi, I am a Data Science and Biostatistics Master's student in Columbia Universit
 My journey to data science has started from being heavily involved with computational neuroscience research<br />
 in undergraduate and post-graduate, where I was able to really confirm my passion for analyzing data 
 and<br/> turning them into meaningful insights.
-This led me to my current graduate program, where I have not only<br/> learned about data science and statistics in depth, but also have gotten a lot of hands-on experience through<br/> projects and work experience through internships.
-Please check out some of my data science projects!
+This led me to my current graduate program, where I have not only<br/> learned about data science and statistics in depth, but also have gotten a lot of hands-on work experience through<br/> projects and internships.
+Please check out some of my **data science projects** in the 'Projects' tab!
 
 <br/>
 <br/>
@@ -33,17 +28,59 @@ Please check out some of my data science projects!
 <style>
 .column-left{
   float: left;
-  width: 45%;
+  width: 50%;
   text-align: left;
 }
 .column-right{
   float: right;
-  width: 45%;
+  width: 30%;
   text-align: left;
 }
 </style>
 
 <div class="column-left">
+### Work Experience 
+
+**Data Science Intern**
+Healthfirst, Enterprise Analytics Team<br/>
+(New York, Remote)<br/>
+June 2021- August 2021<br/>
+
+**Machine Learning Intern**
+SESSTIM, Biostatistics Team<br/>
+(Marseille, Remote)<br/>
+May 2021- August 2021<br/>
+
+**Research Assistant**
+The Morishita Laboratory, Data Analytics Department of Neuroscience at Icahn School of Medicine<br/>
+(New york)<br/>
+May 2019- June 2020
+
+**Research Assistant**
+Computational Physiology Laboratory,<br/> Department of Neurobiology and Behavior at Cornell University<br/>
+(Ithaca)<br/>
+May 2016- May 2018
+
+**Administrative Program Assistant**
+Cornell Cooperative Extension,<br/>
+Cornell University<br/>
+(Ithaca)<br/>
+May 2017- August 2017
+
+</div>
+
+<div class="column-right">
+### Education
+
+**Columbia University**<br/>
+M.S. in Biostatistics and Data Science<br/>  *GPA: 3.88/4.0*<br/>
+
+**Cornell University**<br/>
+B.S. in Biological Sciences and Neurobiology<br/> 
+*Distinction in Research, Cum Laude*<br/>
+<br/>
+<br/>
+
 ### Skills
 **Programming & Technologies** <br />
 * Python <br/>
@@ -62,12 +99,9 @@ Please check out some of my data science projects!
 * Data Visualization, Data Storytelling<br/> 
 * Database Management<br/> 
 * Deep Learning 
-</div>
 
-<div class="column-right">
-### Education
 </div>
-
+</center>
 
 
 

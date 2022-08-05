@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -223,69 +220,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -293,16 +227,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -348,40 +272,50 @@ div.tocify {
 <p><img src = "images/Picture1.jpg" style = "width: 42%"></p>
 <div id="christina-cho" class="section level1">
 <h1>Christina Cho</h1>
-<a href="mailto:cnych45@gmail.com" class="email">cnych45@gmail.com</a> 315.726.5647
-</center>
+<p><a href="mailto:cnych45@gmail.com" class="email">cnych45@gmail.com</a> 315.726.5647</p>
 <p><br /></p>
 <div id="about-me" class="section level3">
 <h3>About Me</h3>
-<p>Hi, I am a Data Science and Biostatistics Master’s student in Columbia University, graduating in October 2022.<br /> My journey to data science has started from being heavily involved with computational neuroscience research<br /> in undergraduate and post-graduate, where I was able to really confirm my passion for analyzing data and<br/> turning them into meaningful insights. This led me to my current graduate program, where I have not only<br/> learned about data science and statistics in depth, but also have gotten a lot of hands-on experience through<br/> projects and work experience through internships. Please check out some of my data science projects!</p>
+<p>Hi, I am a Data Science and Biostatistics Master’s student in Columbia University, graduating in October 2022.<br /> My journey to data science has started from being heavily involved with computational neuroscience research<br /> in undergraduate and post-graduate, where I was able to really confirm my passion for analyzing data and<br/> turning them into meaningful insights. This led me to my current graduate program, where I have not only<br/> learned about data science and statistics in depth, but also have gotten a lot of hands-on work experience through<br/> projects and internships. Please check out some of my <strong>data science projects</strong> in the ‘Projects’ tab!</p>
 <p><br/> <br/></p>
 <style>
 .column-left{
   float: left;
-  width: 45%;
+  width: 50%;
   text-align: left;
 }
 .column-right{
   float: right;
-  width: 45%;
+  width: 30%;
   text-align: left;
 }
 </style>
 </div>
-<div id="skills" class="section level3 column-left">
+<div id="work-experience" class="section level3 column-left">
+<h3>Work Experience</h3>
+<p><strong>Data Science Intern</strong> Healthfirst, Enterprise Analytics Team<br/> (New York, Remote)<br/> June 2021- August 2021<br/></p>
+<p><strong>Machine Learning Intern</strong> SESSTIM, Biostatistics Team<br/> (Marseille, Remote)<br/> May 2021- August 2021<br/></p>
+<p><strong>Research Assistant</strong> The Morishita Laboratory, Data Analytics Department of Neuroscience at Icahn School of Medicine<br/> (New york)<br/> May 2019- June 2020</p>
+<p><strong>Research Assistant</strong> Computational Physiology Laboratory,<br/> Department of Neurobiology and Behavior at Cornell University<br/> (Ithaca)<br/> May 2016- May 2018</p>
+<p><strong>Administrative Program Assistant</strong> Cornell Cooperative Extension,<br/> Cornell University<br/> (Ithaca)<br/> May 2017- August 2017</p>
+</div>
+<div class="column-right">
+<div id="education" class="section level3">
+<h3>Education</h3>
+<p><strong>Columbia University</strong><br/> M.S. in Biostatistics and Data Science<br/> <em>GPA: 3.88/4.0</em><br/></p>
+<p><strong>Cornell University</strong><br/> B.S. in Biological Sciences and Neurobiology<br/> <em>Distinction in Research, Cum Laude</em><br/> <br/> <br/></p>
+</div>
+<div id="skills" class="section level3">
 <h3>Skills</h3>
 <p><strong>Programming &amp; Technologies</strong> <br /> * Python <br/> * SQL <br/> * R<br/> * SAS<br/> * Tableau<br/> * Git<br/> * Microsoft Office<br/></p>
 <p><strong>Data Analysis</strong><br/> * Machine Learning<br/> * Experimental Design, A/B Testing<br/> * Data Mining<br/> * Cluster Analysis<br/> * Data Visualization, Data Storytelling<br/> * Database Management<br/> * Deep Learning</p>
 </div>
-<div id="education" class="section level3 column-right">
-<h3>Education</h3>
 </div>
+</center>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -414,32 +348,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
