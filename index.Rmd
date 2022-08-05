@@ -41,27 +41,27 @@ Please check out some of my **data science projects** in the 'Projects' tab!
 <div class="column-left">
 ### Work Experience 
 
-**Data Science Intern**
+**Data Science Intern**<br/>
 Healthfirst, Enterprise Analytics Team<br/>
 (New York, Remote)<br/>
 June 2021- August 2021<br/>
 
-**Machine Learning Intern**
+**Machine Learning Intern**<br/>
 SESSTIM, Biostatistics Team<br/>
 (Marseille, Remote)<br/>
 May 2021- August 2021<br/>
 
-**Research Assistant**
-The Morishita Laboratory, Data Analytics Department of Neuroscience at Icahn School of Medicine<br/>
+**Research Assistant**<br/>
+The Morishita Laboratory, <br/>Data Analytics Department of Neuroscience at Icahn School of Medicine<br/>
 (New york)<br/>
 May 2019- June 2020
 
-**Research Assistant**
+**Research Assistant**<br/>
 Computational Physiology Laboratory,<br/> Department of Neurobiology and Behavior at Cornell University<br/>
 (Ithaca)<br/>
 May 2016- May 2018
 
-**Administrative Program Assistant**
+**Administrative Program Assistant**<br/>
 Cornell Cooperative Extension,<br/>
 Cornell University<br/>
 (Ithaca)<br/>
