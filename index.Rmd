@@ -10,20 +10,32 @@ geometry:
 <img src = "images/Picture1.JPG" style = "width: 42%">
 
 # Christina Cho
-
 cnych45@gmail.com 315.726.5647
 
 <br />
 
+<style>
+p.comment {
+background-color: #DBF1F1;
+padding: 10px;
+border: 1px solid black;
+margin-left: 2px;
+border-radius: 5px;
+font-style: italic;
+}
+
+</style>
+
 ### About Me
-
-Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.
+<p class = "comment">
+<font size = "3"> Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.
 My journey to data science started from being heavily involved with computational neuroscience research
-in undergraduate and post-graduate, where I was able to really confirm my passion for analyzing data 
+in undergraduate, where I was able to really confirm my passion for analyzing data 
 and turning them into meaningful insights.
-This led me to my current graduate program, where I have learned about data science and statistics in depth and have gained robust hands-on work experience through projects and internships.
-Please check out some of my **data science projects** in the 'Projects' tab!
-
+This led me to my current graduate program, where I have not only gained both in-depth knowledge of data science and 
+statistics but also robust hands-on work experience through internships and projects.
+Please check out some of my <span style = "color:brown"> **Data Science Projects** </span> in the 'Projects' tab!</font>
+</p>
 <br/>
 
 <style>
@@ -34,7 +46,7 @@ Please check out some of my **data science projects** in the 'Projects' tab!
 }
 .column-right{
   float: right;
-  width: 40%;
+  width: 30%;
   text-align: left;
 }
 </style>
@@ -50,7 +62,7 @@ Please check out some of my **data science projects** in the 'Projects' tab!
 </style>
 
 ### Work Experience 
-
+<font size = "3">
 **Data Science Intern**<br/>
 Healthfirst, Enterprise Analytics Team<br/>
 (New York, Remote)<br/>
@@ -59,15 +71,15 @@ June 2021- August 2021<br/>
 **Machine Learning Intern**<br/>
 SESSTIM, Biostatistics Team<br/>
 (Marseille, Remote)<br/>
-May 2021- August 2021<br/>
+May 2021- September 2021<br/>
 
 **Research Assistant**<br/>
-The Morishita Laboratory, <br/>Data Analytics Dept. of Neuroscience at Icahn School of Medicine<br/>
-(New york)<br/>
+The Morishita Laboratory, <br/>Icahn School of Medicine at Mt. Sinai<br/>
+(New York)<br/>
 May 2019- June 2020
 
 **Research Assistant**<br/>
-Computational Physiology Laboratory,<br/> Dept. of Neurobiology and Behavior at Cornell University<br/>
+Computational Physiology Laboratory,<br/>Cornell University<br/>
 (Ithaca)<br/>
 May 2016- May 2018
 
@@ -76,23 +88,23 @@ Cornell Cooperative Extension,<br/>
 Cornell University<br/>
 (Ithaca)<br/>
 May 2017- August 2017
-
 </div>
 
 <div class="column-right">
 ### Education
 
-**Columbia University**<br/>
+<i class= 'fas fa-graduation-cap'></i> **Columbia University**<br/>
 M.S. in Biostatistics and Data Science<br/>  *GPA: 3.88/4.0*<br/>
 
-**Cornell University**<br/>
+<i class= 'fas fa-graduation-cap'></i> **Cornell University**<br/>
 B.S. in Biological Sciences and Neurobiology<br/> 
 *Distinction in Research, Cum Laude*<br/>
 <br/>
 <br/>
 
 ### Skills
-**Programming & Technologies** <br />
+**Programming & Technologies** 
+
 * Python <br/>
 * SQL <br/>
 * R<br/>
@@ -101,15 +113,16 @@ B.S. in Biological Sciences and Neurobiology<br/>
 * Git<br/>
 * Microsoft Office<br/> 
 
-**Data Analysis**<br/>
+**Data Analysis**
+
 * Machine Learning<br/>
-* Experimental Design, A/B Testing<br/>
 * Data Mining<br/> 
 * Cluster Analysis<br/>
 * Data Visualization, Data Storytelling<br/> 
+* Experimental Design, A/B Testing<br/>
 * Database Management<br/> 
 * Deep Learning 
-
+</font>
 </div>
 </center>
 
