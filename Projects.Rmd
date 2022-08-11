@@ -55,7 +55,7 @@ font-style: italic;
 <br/>
 <br/>
 
-## Factors that Might be Associated with US Hate Crime Rates <img src = "images/picture3.png" style = "width: 5%">
+## Factors Associated with US Hate Crime Rates <img src = "images/picture3.png" style = "width: 5%">
 #### [**click here to view Github Repository**](https://github.com/chonieny/Hate_Crime_Factors_project)
 <p class = "comment">
 <font size = "3"> This project aims to build a <span style = "color:brown"> **multiple linear regression model** </span> to identify factors that are most closely associated with hate crime rates in the US. With the number of hate crimes jumping at an alarming rate, there is a growing urgency to find trends within the hate crime data that can assist the law enforcement agencies and the FBI to better address and prevent future incidents.<br/>
