@@ -28,13 +28,9 @@ font-style: italic;
 
 ### About Me
 <p class = "comment">
-<font size = "3"> Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.
-My journey to data science started from being heavily involved with computational neuroscience research
-in undergraduate, where I was able to really confirm my passion for analyzing data 
-and turning them into meaningful insights.
-This led me to my current graduate program, where I have not only gained both in-depth knowledge of data science and 
-statistics but also robust hands-on work experience through internships and projects.
-Please check out some of my <span style = "color:brown"> **Data Science Projects** </span> in the 'Projects' tab!</font>
+<font size = "3"> 
+Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022. I am a data enthusiast who is always seeking to extract accurate and meaningful insights from data. According to Albert Einstein, “if you can’t explain it simply, you don’t understand it well enough”. With this quote in mind, I am adept at conveying analytical insights in a clear manner. With a team-oriented and analytical mindset, I am eager to contribute my skills in statistical analyses and machine learning to help make data-driven decisions for your business. 
+Please check out some of my <br/> <span style = "color:brown"> **Data Science Projects** </span> in the 'Projects' tab!</font>
 </p>
 <br/>
 
