@@ -29,7 +29,7 @@ font-style: italic;
 ### About Me
 <p class = "comment">
 <font size = "3"> 
-Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022. I am a data enthusiast who is always seeking to extract accurate and meaningful insights from data. According to Albert Einstein, “if you can’t explain it simply, you don’t understand it well enough”. With this quote in mind, I am adept at conveying analytical insights in a clear manner. With a team-oriented and analytical mindset, I am eager to contribute my skills in statistical analyses and machine learning to help make data-driven decisions for your business. 
+Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.<br/> I am a data enthusiast who is always seeking to extract accurate and meaningful insights from data. According to Albert Einstein, “if you can’t explain it simply, you don’t understand it well enough”. With this quote in mind, I am adept at conveying analytical insights in a clear manner. With a team-oriented and analytical mindset, I am eager to contribute my skills in statistical analyses and machine learning to help make data-driven decisions for your business. 
 Please check out some of my <span style = "color:brown"> **Data Science Projects** </span> in the 'Projects' tab!</font>
 </p>
 <br/>
@@ -69,7 +69,7 @@ SESSTIM, Biostatistics Team<br/>
 (Marseille, Remote)<br/>
 May 2021- September 2021<br/>
 
-**Research Assistant**<br/>
+**Research Assistant, Data Analytics**<br/>
 The Morishita Laboratory, <br/>Icahn School of Medicine at Mt. Sinai<br/>
 (New York)<br/>
 May 2019- June 2020
@@ -113,9 +113,11 @@ B.S. in Biological Sciences and Neurobiology<br/>
 
 * Machine Learning<br/>
 * Data Mining<br/> 
-* Cluster Analysis<br/>
+* Experimental Design, A/B Testing, Causal Inference<br/>
+* Data Engineering<br/>
 * Data Visualization, Data Storytelling<br/> 
-* Experimental Design, A/B Testing<br/>
+* Advanced Statistical Modeling<br/>
+* Cluster Analysis<br/>
 * Database Management<br/> 
 * Deep Learning 
 </font>
