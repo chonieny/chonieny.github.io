@@ -29,7 +29,7 @@ font-style: italic;
 ### About Me
 <p class = "comment">
 <font size = "3"> 
-Hi, I am a Data Science and Biostatistics Master's student in Columbia University, graduating in October 2022.<br/> I am a data enthusiast who is always seeking to extract accurate and meaningful insights from data. According to Albert Einstein, “if you can’t explain it simply, you don’t understand it well enough”. With this quote in mind, I am adept at conveying analytical insights in a clear manner. With a team-oriented and analytical mindset, I am eager to contribute my skills in statistical analyses and machine learning to help make data-driven decisions for your business. 
+Hi, I am a data enthusiast committed to transforming complex data into clear and actionable insights. Albert Einstein once said, “If you can’t explain it simply, you don’t understand it well enough”. With this quote in mind, I am adept at conveying analytical insights in a clear manner. With a robust background in statistical analysis and data engineering, I am eager to help make data-driven decisions for your business. 
 Please check out some of my <span style = "color:brown"> **Data Science Projects** </span> in the 'Projects' tab!</font>
 </p>
 <br/>
@@ -59,6 +59,11 @@ Please check out some of my <span style = "color:brown"> **Data Science Projects
 
 ### Work Experience 
 <font size = "3">
+**Senior Data Science Analyst**<br/>
+Link Logistics, Research and Analytics Team<br/>
+(New York)<br/>
+December 2022- March 2024<br/>
+
 **Data Science Intern**<br/>
 Healthfirst, Enterprise Analytics Team<br/>
 (New York, Remote)<br/>
