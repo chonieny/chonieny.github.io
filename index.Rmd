@@ -124,7 +124,6 @@ B.S. in Biological Sciences and Neurobiology<br/>
 * Advanced Statistical Modeling<br/>
 * Cluster Analysis<br/>
 * Database Management<br/> 
-* Deep Learning 
 </font>
 </div>
 </center>
